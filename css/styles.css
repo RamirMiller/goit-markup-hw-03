@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -8,21 +16,50 @@ body {
     line-height: 24px;
 }
 
-ul {
-    list-style: none;
+/* Стилі для обнулення відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
-
+/* обнулення базових властивостей списків (ul) */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+/* обнулення базових властивостей у посилань */
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+/* Властивості для коректного відображення картинок */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* Властивості для обнулення курсиву address */
+address {
+  font-style: normal;
 }
 
 button {
     cursor: pointer;
 }
 
+.container {
+    width: 1128px;
+    margin: 0 auto;
+}
+
 /*!===============Header=====================*/
 .header {
     background-color: E7E9FC;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .logo {
@@ -90,7 +127,20 @@ button {
 /*===============Section 1 =====================*/
 
 .section_oen {
+    
+    width: 1440px;
+    height: 600px;
+    top: 72px;
+    margin: 0 auto;
+
+}
+
+.effective {
     background: #2e2f42;
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+
 }
 
 
@@ -101,16 +151,29 @@ button {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
-    text-align: center 
+    margin-top: 260px;
+    margin-left: 472px;
+    width: 496px;
+    height: 120px;
+    max-width: 496px;
+    margin: 0 auto;
+    padding-top: 188px;
+    
+    
 }
 
 .butt {
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;     
     background: #4d5ae5;
+    padding: 16px, 32px, 16px, 32px; 
+    border-radius: 4px;
+    padding-bottom: 188px;
+    margin: 0 auto;
 }
 .butt:hover,
 .butt:focus {
