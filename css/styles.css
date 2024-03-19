@@ -59,7 +59,10 @@ button {
 /*!===============Header=====================*/
 .header {
     background-color: E7E9FC;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
 }
 
 .logo {
@@ -126,11 +129,15 @@ button {
 
 /*===============Section 1 =====================*/
 
+.section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
 .section_oen {
     
     width: 1440px;
     height: 600px;
-    top: 72px;
     margin: 0 auto;
 
 }
@@ -183,9 +190,38 @@ button {
 
 /*===============Section 2 =====================*/
 
+
+
 .section_two {
     
+
 }
+
+.section_two_block {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Strategy {
+
+}
+
+.Punctuality {
+
+}
+
+.Diligence {
+
+}
+
+
+.Technologies {
+
+}
+
+
+
 
 
 .section_two-title {
@@ -208,7 +244,37 @@ button {
     
 }
 
+
+
 /*===============Section 3 =====================*/
+
+
+
+
+
+
+.section_three_block {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Mark {
+
+}
+
+.Tom {
+
+}
+
+.Camila {
+
+}
+
+.Daniel {
+
+}
+
 
 .section_three-team {
     background-color: #F4F4FD;
@@ -299,6 +365,11 @@ button {
 /*===============Footer =====================*/
 .foot {
     background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1440px;
+    height: 312px;
+    margin: 0 auto;
 }
 .section-foot-text {
     font-weight: 400;
