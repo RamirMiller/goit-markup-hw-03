@@ -65,6 +65,11 @@ button {
     
 }
 
+.header-container {
+    display: flex;
+
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -79,6 +84,28 @@ button {
 .navig a:hover, 
 .navig a:focus {
     color: #404bbf;
+}
+
+
+.navig {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+    flex-grow: 1;
+}
+
+.navig-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+
+}
+
+.header-contact-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .logo-web-h{
@@ -130,11 +157,10 @@ button {
 /*===============Section 1 =====================*/
 
 .section {
-    padding-bottom: 120px;
-    padding-top: 120px;
+   
 }
 
-.section_oen {
+.section-oen {
     
     width: 1440px;
     height: 600px;
@@ -177,8 +203,10 @@ button {
     background: #4d5ae5;
     padding: 16px, 32px, 16px, 32px; 
     border-radius: 4px;
-    padding-bottom: 188px;
+    padding-bottom: 356px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 .butt:hover,
 .butt:focus {
@@ -192,14 +220,17 @@ button {
 
 
 
-.section_two {
+.section-two {
     
 
 }
 
-.section_two_block {
+.section-two-block {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 24px;
+   
 
 }
 
@@ -220,21 +251,25 @@ button {
 
 }
 
+.section-two-item {
+    width: calc((100% - 3 * 24px) / 4);
+
+}
 
 
 
-
-.section_two-title {
+.section-two-title {
     font-family: 'Roboto' sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;    
+    color: #2e2f42; 
+    margin-bottom: 8px;   
    
 }
 
-.section_two-text {
+.section-two-text {
     font-family: 'Roboto' sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -253,34 +288,36 @@ button {
 
 
 
-.section_three_block {
+.section-three_block {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 
 .Mark {
-
+   
+  
 }
 
-.Tom {
 
+.Tom {
+   
 }
 
 .Camila {
-
+    
 }
 
 .Daniel {
-
+    
 }
 
 
-.section_three-team {
+.section-three-team {
     background-color: #F4F4FD;
 }
 
-.section_three-title {
+.section-three-title {
     font-family: 'Roboto' sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -291,11 +328,11 @@ button {
     text-transform: capitalize;
 }
 
-.section_three-item {
+.section-three-item {
     background: #fff;
 }
 
-.section_three-img {
+.section-three-img {
 }
 
 .team-name {
