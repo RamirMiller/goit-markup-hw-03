@@ -313,7 +313,7 @@ button {
 }
 
 .section-three-item {
-    
+     
     background: #fff;
     border-radius: 0 0 4px 4px;
 }
@@ -366,10 +366,11 @@ button {
     letter-spacing: 0.02em;
     text-align: center;    
     color: #2e2f42;
+    margin-bottom: 72px; 
     
 }
 
-.Portfolio-item {
+.portfolio-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -379,7 +380,7 @@ button {
     row-gap: 48px;
 }
 
-.Portfolio-specialization {
+.portfolio-specialization {
     display: flex;
     align-items: flex-start;
     justify-content: center;
