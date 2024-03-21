@@ -184,14 +184,18 @@ button {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-top: 260px;
-    margin-left: 472px;
+    
     width: 496px;
     height: 120px;
     max-width: 496px;
-    margin: 0 auto;
-    padding-top: 188px;
+    margin-left: 472px;
     
+    margin-right: 472px;
+    margin-bottom: 48px;
+    padding-top: 288px;
+    padding-bottom: 48px;
+    align-items: center;
+    display: flex;
 }
 
 .butt {
@@ -203,8 +207,10 @@ button {
     background: #4d5ae5;
     padding: 16px, 32px, 16px, 32px; 
     border-radius: 4px;
-    padding-bottom: 356px;
-    margin: 0 auto;
+    margin-bottom: 188px; 
+    margin-left: 636px;
+    margin-right: 635px; 
+    margin-top: 48px;  
     display: flex;
     align-items: center;
 }
@@ -230,28 +236,16 @@ button {
     justify-content: center;
     align-items: center;
     gap: 24px;
+    width: 1128px;
+    height: 104px;
    
 
 }
 
-.Strategy {
 
-}
-
-.Punctuality {
-
-}
-
-.Diligence {
-
-}
-
-
-.Technologies {
-
-}
 
 .section-two-item {
+    
     width: calc((100% - 3 * 24px) / 4);
 
 }
@@ -289,27 +283,17 @@ button {
 
 
 .section-three_block {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
     display: flex;
-    justify-content: space-around;
-}
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
 
 
-.Mark {
-   
-  
-}
-
-
-.Tom {
-   
-}
-
-.Camila {
-    
-}
-
-.Daniel {
-    
 }
 
 
@@ -329,12 +313,26 @@ button {
 }
 
 .section-three-item {
+    
     background: #fff;
+    border-radius: 0 0 4px 4px;
 }
 
 .section-three-img {
+    width: 264px;
+    height: 260px;
 }
 
+
+.name-prof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 232px;
+    height: 56px;
+}
 .team-name {
     font-weight: 500;
     font-size: 20px;
@@ -371,16 +369,47 @@ button {
     
 }
 
-.section-four-item {
-    background: #fff;
+.Portfolio-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
-.section-four-item_two {
-    background: #fff;
+.Portfolio-specialization {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    width: 360px;
+    height: 120px;
+
+
+
 }
+
+.section-four-item {
+    background: #fff;
+    width: calc((100% - 3 * 24px) / 4);
+    
+
+}
+
+
 
 
 .section-four-img {
+    width: 360px;
+    height: 300px;
+
 }
 
 .section-four-title {
@@ -414,7 +443,20 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    margin-right: auto;
 }
+
+.footer-logo {
+    height: 112px;
+    width: 264px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+
+
+
+}
+
 
 
 
