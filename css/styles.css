@@ -157,7 +157,7 @@ button {
 /*===============Section 1 =====================*/
 
 .section {
-   
+    padding: 120px 0;
 }
 
 .section-oen {
@@ -190,7 +190,7 @@ button {
     padding-top: 288px;
     padding-bottom: 48px;
     align-items: center;
-    display: flex;
+    
 }
 
 .butt {
@@ -219,7 +219,9 @@ button {
 
 /*===============Section 2 =====================*/
 
-
+.visually-hidden {
+    
+}
 
 .section-two {
     
@@ -242,6 +244,8 @@ button {
 .section-two-item {
     
     width: calc((100% - 3 * 24px) / 4);
+    display: flex;
+    gap: 24px; 
 
 }
 
@@ -254,7 +258,8 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42; 
-    margin-bottom: 8px;   
+    margin-bottom: 8px;  
+    
    
 }
 
@@ -265,6 +270,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
     
 }
 
