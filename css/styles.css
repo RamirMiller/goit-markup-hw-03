@@ -73,7 +73,8 @@ button {
 .header-container {
     display: flex;
     margin: 0 auto;
-    padding: 0 15px 0 15px,
+    padding: 0 15px 0 15px;
+    width: 1158px;
 
 }
 
@@ -141,12 +142,14 @@ button {
     letter-spacing: 0.03em;
     color: #f4f4fd;
     text-transform: uppercase;
+    
 
 }
 
 .address {
     font-style: normal;  
     display: flex;  
+    
 
 }
 
@@ -156,6 +159,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
   
 }
 
@@ -264,22 +268,23 @@ button {
 }
 
 .section-two {
-    width: 1128px;
-    height: 104px;
-    padding-top: 120px;
+    width: 1128px;       
     padding-bottom: 120px;
+    padding-top: 120px;
+    margin: 0 auto;
 
 }
 
 .description {
     display: flex;
     gap: 24px;
+    
 }
 
 .section-two-block {
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     flex-direction: column;
     width: 1128px;
     height: 104px;
@@ -307,7 +312,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42; 
-    margin-bottom: 8px;  
+    margin-bottom: 8px;
     
     
    
@@ -430,10 +435,12 @@ button {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
 }
 
 .section-four-portfolio {
-    background-color: #F4F4FD;
+    background-color: E7E9FC;
     padding-top: 120px; 
     padding-bottom: 120px;
     justify-content: center;
@@ -480,7 +487,7 @@ button {
 .section-four-item {
     background: #fff;
     flex-direction: column;
-    width: calc((100% - 3 * 24px) / 4); 
+    width: calc((100% - 3 * 16px) / 3); 
     display: flex;
 
     
@@ -527,16 +534,14 @@ button {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     margin-right: auto;
+    max-width: 264px;
 }
 
-.footer-logo {
-    height: 112px;
-    width: 264px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
 
 
+.footer-logo-web {
+    margin-bottom: 16px;
+    display: inline-block; 
 
 }
 
