@@ -14,6 +14,8 @@ body {
     font-size: 16px;
     letter-spacing: 2%;
     line-height: 24px;
+    height: 3300px;
+    width: 1440px;
 }
 
 /* Стилі для обнулення відступів у елементів */
@@ -170,7 +172,7 @@ button {
 /*===============Section 1 =====================*/
 
 .section {
-    
+    padding: 0 156px;
 }
 
 .section-oen {
@@ -242,19 +244,36 @@ button {
 /*===============Section 2 =====================*/
 
 .visually-hidden {
+     
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
     
 }
 
 .section-two {
-    
+    width: 1128px;
+    height: 104px;
 
+}
+
+.description {
+    display: flex;
+    gap: 24px;
 }
 
 .section-two-block {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    flex-direction: column;
     width: 1128px;
     height: 104px;
    
@@ -268,6 +287,7 @@ button {
     width: calc((100% - 3 * 24px) / 4);
     display: flex;
     gap: 24px; 
+    
 
 }
 
@@ -321,7 +341,17 @@ button {
 
 
 .section-three-team {
-    background-color: #F4F4FD;
+    display: inline-flex;
+    background-color: #F4F4FD; 
+    width: 1440px;
+    height: 732px;
+    
+
+}
+
+.team {
+    display: flex;
+    gap: 24px;
 }
 
 .section-three-title {
@@ -378,6 +408,12 @@ button {
 
 /*===============Section 4 =====================*/
 
+
+.portfolio {
+    display: flex;
+    gap: 24px;
+}
+
 .section-four-portfolio {
     background-color: #F4F4FD;
 }
@@ -425,7 +461,7 @@ button {
     background: #fff;
     width: calc((100% - 3 * 24px) / 4); 
     display: flex;
-    
+
     
     
 
