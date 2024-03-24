@@ -65,15 +65,15 @@ button {
 }
 
 .header-container {
-    
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px 0 15px,
 
 }
 
 .header-container-nav-adres {
     display: flex;
     width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px 0 15px,
     
 
 }
@@ -101,7 +101,7 @@ button {
     align-items: center;
     gap: 76px;
     flex-grow: 1;
-    padding: 24px 0;
+    
 }
 
 .navig-list {
@@ -117,6 +117,7 @@ button {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .logo-web-h{
@@ -138,8 +139,7 @@ button {
 }
 
 .address {
-    font-style: normal;
-    padding: 24px 0;
+    font-style: normal;    
 
 }
 
