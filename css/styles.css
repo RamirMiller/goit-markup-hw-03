@@ -49,6 +49,7 @@ address {
 
 button {
     cursor: pointer;
+    
 }
 
 .container {
@@ -169,7 +170,7 @@ button {
 /*===============Section 1 =====================*/
 
 .section {
-    padding: 120px 0;
+    
 }
 
 .section-oen {
@@ -178,6 +179,7 @@ button {
     height: 600px;
     margin: 0 auto;
     display: block;
+    padding: 188px 0;
     
 
 }
@@ -189,6 +191,7 @@ button {
 
 
 .page-title {
+    display: block;
     font-family: 'Roboto' sans-serif;
     font-weight: bold;
     font-size: 56px;
@@ -197,11 +200,12 @@ button {
     color: #fff;    
     width: 496px;
     height: 120px;
-    max-width: 496px;    
-    margin: 0 auto;
-    padding-top: 288px;
-    padding-bottom: 48px;
+    max-width: 496px;  
+    /*  
+    
+   */
     align-items: center;
+    margin: 0 auto;
     
 }
 
@@ -214,12 +218,18 @@ button {
     background: #4d5ae5;
     padding: 16px, 32px, 16px, 32px; 
     border-radius: 4px;
+    max-width: 169px;  
+    height: 56px;
+    border: none; 
+    /*
     margin-bottom: 188px; 
-    margin-top: 48px;  
+    margin-top: 48px;  */
+    margin: 0 auto;
+
     display: block;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    
+    
 }
 .butt:hover,
 .butt:focus {
@@ -326,7 +336,8 @@ button {
 }
 
 .section-three-item {
-     
+    display: list-item;
+         
     background: #fff;
     border-radius: 0 0 4px 4px;
 }
@@ -412,7 +423,10 @@ button {
 
 .section-four-item {
     background: #fff;
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4); 
+    display: flex;
+    
+    
     
 
 }
