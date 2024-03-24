@@ -63,6 +63,9 @@ button {
 .header {
     background-color: E7E9FC;
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    flex-direction: row;
+    
     
     
 }
@@ -142,7 +145,8 @@ button {
 }
 
 .address {
-    font-style: normal;    
+    font-style: normal;  
+    display: flex;  
 
 }
 
@@ -414,6 +418,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 
     }
     
