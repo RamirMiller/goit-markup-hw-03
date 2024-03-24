@@ -67,6 +67,12 @@ button {
 
 .header-container {
     display: flex;
+    width: 1158px;
+    margin: 0 auto;
+
+}
+
+.header-container-nav-adres {
 
 }
 
