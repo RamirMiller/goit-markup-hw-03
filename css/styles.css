@@ -65,15 +65,15 @@ button {
 }
 
 .header-container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px 0 15px,
+    
 
 }
 
 .header-container-nav-adres {
     display: flex;
-    
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px,
     
 
 }
@@ -101,6 +101,7 @@ button {
     align-items: center;
     gap: 76px;
     flex-grow: 1;
+    padding: 24px 0;
 }
 
 .navig-list {
