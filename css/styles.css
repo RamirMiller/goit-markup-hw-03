@@ -215,7 +215,8 @@ button {
     
    */
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto 48px;
+    align-content:center;
     
 }
 
@@ -300,19 +301,21 @@ button {
     display: flex;
     gap: 24px; 
     
+    
 
 }
 
 
 
 .section-two-title {
+    display: flex;
     font-family: 'Roboto' sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42; 
-    margin-bottom: 8px;
+    color: #2e2f42;    
+    margin-bottom: 8px; 
     
     
    
@@ -437,18 +440,21 @@ button {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: stretch;
+    row-gap: 48px; 
+    gap: 24px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-four-portfolio {
     background-color: E7E9FC;
     padding-top: 120px; 
     padding-bottom: 120px;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
+    
+   
+    
 }
 
 .section-four-portfolio-title {
