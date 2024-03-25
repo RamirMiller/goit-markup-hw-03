@@ -288,7 +288,6 @@ button {
 .section-two-block {
     display: flex;
     justify-content: center;
-    
     flex-direction: column;
     width: 1128px;
     height: 104px;
@@ -303,6 +302,8 @@ button {
     width: calc((100% - 3 * 24px) / 4);
     display: flex;
     gap: 24px; 
+    justify-content: center;
+    flex-direction: column;
     
     
 
