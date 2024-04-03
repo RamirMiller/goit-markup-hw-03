@@ -4,18 +4,12 @@
   box-sizing: border-box;
 }
 
-
-
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
-    font-weight: Regular;
-    font-size: 16px;
-    letter-spacing: 2%;
-    line-height: 24px;
-    height: 3300px;
-    width: 1440px;
+    background-color: #FFFFFF;    
+    font-size: 16px;          
+    
 }
 
 /* Стилі для обнулення відступів у елементів */
@@ -106,8 +100,7 @@ button {
 
 .navig {
     display: flex;
-    align-items: center;
-    gap: 76px;
+    align-items: center;    
     flex-grow: 1;
     
 }
@@ -116,9 +109,6 @@ button {
     display: flex;
     align-items: center;
     gap: 40px;
-    
-    
-
 }
 
 .header-contact-list {
@@ -271,8 +261,7 @@ button {
     
 }
 
-.section-two {
-    width: 1128px;       
+.section-two {       
     padding-bottom: 120px;
     padding-top: 120px;
     margin: 0 auto;
@@ -301,7 +290,6 @@ button {
     
     width: calc((100% - 3 * 24px) / 4);
     display: flex;
-    gap: 24px; 
     justify-content: center;
     flex-direction: column;
     
@@ -362,19 +350,18 @@ button {
     justify-content: center;
     flex-direction: column;
     gap: 32px;
+    
 
 
 }
 
 
-.section-three-team {
-    display: inline-flex;
+.section-three-team {    
     background-color: #F4F4FD; 
-    width: 1440px;
-    height: 732px;
+    width: 1440px;    
     padding-top: 120px;
     padding-bottom: 120px;
-    
+    margin: 0 auto;
 
 }
 
@@ -409,18 +396,15 @@ button {
 
 
 .name-prof {
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
-    width: 232px;
-    height: 56px;
-    
+    gap: 8px;    
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.team-name {
+
+.team-name {    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -505,12 +489,8 @@ button {
 .section-four-item {
     background: #fff;
     flex-direction: column;
-    width: calc((100% - 3 * 16px) / 3); 
-    display: flex;
-    margin-bottom: 48px;
-
+    width: calc((100% - 3 * 16px) / 3);      
     
-
 }
 
 .section-four-item:nth-child(4)  {
@@ -537,7 +517,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
+    
 }
 
 .section-four-text {
